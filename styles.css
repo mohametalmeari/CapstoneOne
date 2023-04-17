@@ -1,3 +1,38 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-centered-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  display: none;
+}
+
+.menu-container {
+  margin-left: 1rem;
+}
+
+.logo-container {
+  margin-right: 1rem;
+  padding: 0.25rem;
+}
+
+.logo-container img {
+  max-height: 3rem;
+}
