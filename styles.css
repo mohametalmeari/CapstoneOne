@@ -4,6 +4,30 @@
 
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  position: relative;
+}
+
+.header-mask {
+  background: url(./images/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.15;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.header-mask div {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.4;
 }
 
 nav {
@@ -28,6 +52,11 @@ nav {
   margin-left: 1rem;
 }
 
+.material-icons {
+  font-size: 48px;
+  color: #272a31;
+}
+
 .logo-container {
   margin-right: 1rem;
   padding: 0.25rem;
@@ -35,4 +64,48 @@ nav {
 
 .logo-container img {
   max-height: 3rem;
+}
+
+.headline {
+  padding: 1rem 1rem 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-description {
+  color: #ec5242;
+  font-size: large;
+  margin: 0 0 1rem;
+}
+
+h1 {
+  color: #ec5242;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 1rem;
+}
+
+.header-desctiption {
+  border: solid 2px #fff;
+  padding: 1rem;
+  color: #272a31;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0 0 1rem;
+}
+
+.event-date {
+  color: #272a31;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0 0 1rem;
+}
+
+.event-place {
+  color: #272a31;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
 }
