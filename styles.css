@@ -52,6 +52,11 @@ nav {
   margin-left: 1rem;
 }
 
+.material-icons {
+  font-size:48px;
+  color:#272a31
+}
+
 .logo-container {
   margin-right: 1rem;
   padding: 0.25rem;
@@ -80,7 +85,6 @@ h1 {
   text-transform: uppercase;
   margin: 0 0 1rem;
 }
-
 
 .header-desctiption {
   border: solid 2px #fff;
