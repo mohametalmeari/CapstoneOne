@@ -1,3 +1,24 @@
+const xMenu = document.getElementById('close-menu');
+const menuIcon = document.getElementById('menu-icon');
+const menuList = document.getElementById('menu-list');
+const menuLink = document.querySelectorAll('.menu-list li');
+
+menuIcon.addEventListener('click', () => {
+  menuList.style.display = 'flex';
+});
+
+xMenu.addEventListener('click', () => {
+  menuList.style.display = 'none';
+});
+
+for (let i = 0; i < menuLink.length; i += 1) {
+  menuLink[i].addEventListener('click', () => {
+    if (window.innerWidth < 768) {
+      menuList.style.display = 'none';
+    }
+  });
+}
+
 const artists = [
   {
     name: 'Tailer Swift1',
