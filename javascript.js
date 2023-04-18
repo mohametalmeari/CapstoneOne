@@ -8,16 +8,16 @@ menuIcon.addEventListener('click', () => {
 });
 
 xMenu.addEventListener('click', () => {
-    menuList.style.display = 'none';
+  menuList.style.display = 'none';
 });
 
 for (let i = 0; i < menuLink.length; i += 1) {
-    menuLink[i].addEventListener('click', () => {
-      if (window.innerWidth < 768) {
-        menuList.style.display = 'none';
-      }
-    });
-  }
+  menuLink[i].addEventListener('click', () => {
+    if (window.innerWidth < 768) {
+      menuList.style.display = 'none';
+    }
+  });
+}
 
 const artists = [
   {
