@@ -57,12 +57,14 @@ nav {
   margin: 0;
   padding: 2rem 2rem;
   gap: 2rem;
+  z-index: 999;
 }
 
 .close-menu {
   align-self: flex-end;
   height: 2rem;
   width: 2rem;
+  cursor: pointer;
 }
 
 .menu-list * {
@@ -79,6 +81,7 @@ nav {
 .menu-icon .material-icons {
   font-size: 48px;
   color: #272a31;
+  cursor: pointer;
 }
 
 .logo-container {
