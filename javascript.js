@@ -38,7 +38,28 @@ const artists = [
     name: 'Tailer Swift',
     description: 'A great American singer',
     details: 'She is known for her loud songs',
+    image_scr: './images/artist3.png',
+    image_alt: 'Tailer Swift Image',
+  },
+  {
+    name: 'Tailer Swift1',
+    description: 'A great American singer1',
+    details: 'She is known for her loud songs1',
     image_scr: './images/artist1.png',
+    image_alt: 'Tailer Swift Image',
+  },
+  {
+    name: 'Tailer Swift2',
+    description: 'A great American singer2',
+    details: 'She is known for her loud songs2',
+    image_scr: './images/artist2.png',
+    image_alt: 'Tailer Swift Image2',
+  },
+  {
+    name: 'Tailer Swift',
+    description: 'A great American singer',
+    details: 'She is known for her loud songs',
+    image_scr: './images/artist3.png',
     image_alt: 'Tailer Swift Image',
   },
 ];
@@ -63,3 +84,26 @@ for (let i = 0; i < artists.length; i += 1) {
   artistCard.classList.add('artist-card');
   artistsContainer.appendChild(artistCard);
 }
+
+const artistCard = document.querySelectorAll('.artist-card');
+for (let i = 4; i < artistCard.length; i += 1) {
+  artistCard[i].style.display = 'none';
+}
+
+const moreBtn = document.getElementById('more-btn');
+let showCards = true;
+moreBtn.addEventListener('click', () => {
+  if (showCards) {
+    for (let i = 4; i < artistCard.length; i += 1) {
+      artistCard[i].style.display = 'flex';
+    }
+    showCards = false;
+    moreBtn.innerHTML = 'Less <i id="btn_arrow" class="material-icons">keyboard_arrow_up</i>';
+  } else {
+    for (let i = 4; i < artistCard.length; i += 1) {
+      artistCard[i].style.display = 'none';
+    }
+    showCards = true;
+    moreBtn.innerHTML = 'More <i id="btn_arrow" class="material-icons">keyboard_arrow_down</i>';
+  }
+});

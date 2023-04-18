@@ -302,7 +302,7 @@ button {
   color: #272a31;
 }
 
-.more-btn {
+#more-btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -315,7 +315,7 @@ button {
   align-content: center;
 }
 
-.more-btn .material-icons {
+#more-btn .material-icons {
   font-size: 18px;
   color: #ec5242;
 }
