@@ -161,6 +161,10 @@ footer p {
   gap: 1rem;
 }
 
+.program-card:hover {
+  outline: solid 2px #fff;
+}
+
 .program-card * {
   margin: 0;
 }
