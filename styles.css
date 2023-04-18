@@ -45,7 +45,31 @@ nav {
 }
 
 .menu-list {
+  position: fixed;
   display: none;
+  flex-direction: column;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  list-style-type: none;
+  background-color: #272a31f9;
+  margin: 0;
+  padding: 2rem 2rem;
+  gap: 2rem;
+}
+
+.close-menu {
+  align-self: flex-end;
+  height: 2rem;
+  width: 2rem;
+}
+
+.menu-list * {
+  color: #d3d3d3;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .menu-container {
@@ -239,6 +263,7 @@ button {
 .img-container img {
   margin: 12px 0 0 12px;
   width: calc(100% - 12px);
+  aspect-ratio: 1/1;
   z-index: 1;
 }
 
@@ -329,4 +354,113 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    width: 100%;
+    background-color: #fff;
+    padding: 0 6rem;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    box-shadow: 0 1px 2px #ec5242;
+  }
+
+  .headline {
+    margin-top: 3rem;
+    padding: 6rem;
+  }
+
+  .menu-container {
+    order: 2;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+
+  .menu-list {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    background-color: transparent;
+    gap: 0;
+  }
+
+  .menu-list * {
+    color: #272a31;
+    font-size: 12px;
+    font-weight: 700;
+    height: 100%;
+  }
+
+  .menu-list a {
+    padding: 1rem 1.5rem;
+  }
+
+  .menu-list a:hover {
+    background-color: #ec5342;
+  }
+
+  .close-menu {
+    display: none;
+  }
+
+  .header-desctiption {
+    width: 60%;
+    background-color: #d3d3d388;
+  }
+
+  .main-program {
+    padding: 2rem 6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cards-container {
+    flex-direction: row;
+    gap: 0.25rem;
+    justify-content: stretch;
+    align-items: stretch;
+    align-self: stretch;
+  }
+
+  .program-card {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    flex: 1;
+    flex-grow: 1;
+  }
+
+  .program-card p {
+    font-size: 10px;
+    line-height: 12px;
+    gap: 0.5rem;
+  }
+
+  .artists {
+    padding: 2rem 6rem;
+  }
+
+  .artists-container {
+    grid-template-columns: auto auto;
+    column-gap: 1rem;
+    row-gap: 2rem;
+    margin: 0 0 2rem;
+  }
+
+  .partners {
+    padding: 2rem 6rem;
+  }
+
+  footer {
+    justify-content: stretch;
+    padding: 3rem 6rem;
+  }
 }
