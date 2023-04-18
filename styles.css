@@ -233,7 +233,7 @@ button {
   font-size: large;
 }
 
-.artists-container {
+#artists-container {
   display: grid;
   grid-template-columns: auto;
   row-gap: 2rem;
@@ -448,7 +448,7 @@ footer {
     padding: 2rem 6rem;
   }
 
-  .artists-container {
+  #artists-container {
     grid-template-columns: auto auto;
     column-gap: 1rem;
     row-gap: 2rem;
