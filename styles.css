@@ -440,6 +440,8 @@ footer {
 
   .program-card p {
     font-size: 10px;
+    line-height: 12px;
+    gap: 0.5rem;
   }
 
   .artists {
