@@ -5,7 +5,7 @@
   <img src="images\large_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Mo.Almeari Nebula Nights README</b></h3>
+  <h3><b>Nebula Nights 2023 README</b></h3>
 
 </div>
 
@@ -72,7 +72,6 @@
 > Open the link bellow:
 
  - [Live Demo Link](https://mohametalmeari.github.io/)
- - [Outline Video](https://)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +90,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mohametalmeari/Capstone-OI.git
+  git clone git@github.com:mohametalmeari/CapstoneOne.git
 ```
 
 ### Usage
@@ -152,9 +151,7 @@ We invite you to share this project with others and provide a favorable review i
 
 ## 🙏 Acknowledgments <a name="acknowlednpments"></a>
 
-> Thank You Microverse!
-
-I would like to thank Microverse team for helping me learn web development.
+> The original design idea for this web page was created by Cindy Shin and can be found on Behance. The design is licensed under Creative Commons and requires appropriate credit to be given to the author. We would like to thank Cindy Shin for her amazing work and inspiration for our project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
