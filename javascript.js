@@ -2,6 +2,13 @@ const xMenu = document.getElementById('close-menu');
 const menuIcon = document.getElementById('menu-icon');
 const menuList = document.getElementById('menu-list');
 const menuLink = document.querySelectorAll('.menu-list li');
+const h1 = document.querySelector('.text-mask');
+
+h1.style.background = 'url("./images/bg.jpg")';
+h1.style.backgroundSize = 'contain';
+h1.style.webkitBackgroundClip = 'text';
+h1.style.backgroundClip = 'text';
+h1.style.color = 'transparent';
 
 menuIcon.addEventListener('click', () => {
   menuList.style.display = 'flex';
@@ -80,24 +87,37 @@ for (let i = 0; i < artists.length; i += 1) {
 }
 
 const artistCard = document.querySelectorAll('.artist-card');
-for (let i = 2; i < artistCard.length; i += 1) {
-  artistCard[i].style.display = 'none';
-}
-
 const moreBtn = document.getElementById('more-btn');
-let showCards = true;
-moreBtn.addEventListener('click', () => {
-  if (showCards) {
+function toggleMoreVisibility() {
+  if (window.innerWidth > 768) {
+    moreBtn.style.display = 'none';
     for (let i = 2; i < artistCard.length; i += 1) {
       artistCard[i].style.display = 'flex';
     }
-    showCards = false;
     moreBtn.innerHTML = 'Less <i id="btn_arrow" class="material-icons">keyboard_arrow_up</i>';
   } else {
     for (let i = 2; i < artistCard.length; i += 1) {
       artistCard[i].style.display = 'none';
     }
-    showCards = true;
     moreBtn.innerHTML = 'More <i id="btn_arrow" class="material-icons">keyboard_arrow_down</i>';
+    moreBtn.style.display = 'flex';
+    let showCards = true;
+    moreBtn.addEventListener('click', () => {
+      if (showCards) {
+        for (let i = 2; i < artistCard.length; i += 1) {
+          artistCard[i].style.display = 'flex';
+        }
+        showCards = false;
+        moreBtn.innerHTML = 'Less <i id="btn_arrow" class="material-icons">keyboard_arrow_up</i>';
+      } else {
+        for (let i = 2; i < artistCard.length; i += 1) {
+          artistCard[i].style.display = 'none';
+        }
+        showCards = true;
+        moreBtn.innerHTML = 'More <i id="btn_arrow" class="material-icons">keyboard_arrow_down</i>';
+      }
+    });
   }
-});
+}
+toggleMoreVisibility();
+window.addEventListener('resize', toggleMoreVisibility);

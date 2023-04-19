@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -16,30 +17,37 @@
     <header>
         <div class="header-mask"><div></div></div>
         <nav>
-            <div class="menu-container">
-                <div id="menu-icon" class="menu-icon flex-centered-items">
-                    <i class="material-icons">menu</i>
-                </div>
-                <ul id="menu-list" class="menu-list">
-                    <img id="close-menu" class="close-menu" src="./images/x.png" alt="">
-                    <li> <a href="./index.html">Home</a> </li>
-                    <li> <a href="#">Program</a> </li>
-                    <li> <a href="#">Join</a> </li>
-                    <li> <a href="./about.html">About</a> </li>
-                </ul>
+            <div class="nav-1">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+                <a href="#">English</a>
+                <a href="#">My Page</a>
+                <a href="#">Layout</a>
             </div>
-            <div class="logo-container">
-                <a href="./index.html"><img class="flex-centered-items" src="./images/logo.png" alt="Nebula Nights"></a>
+            <div class="nav-2">
+                <div class="menu-container">
+                    <div id="menu-icon" class="menu-icon flex-centered-items">
+                        <i class="material-icons">menu</i>
+                    </div>
+                    <ul id="menu-list" class="menu-list">
+                        <img id="close-menu" class="close-menu" src="./images/x.png" alt="">
+                        <li> <a href="./index.html">Home</a> </li>
+                        <li> <a href="#">Program</a> </li>
+                        <li> <a href="#">Join</a> </li>
+                        <li> <a class="active" >About</a> </li>
+                    </ul>
+                </div>
+                <div class="logo-container">
+                    <a href="./index.html"><img class="flex-centered-items" src="./images/logo.png" alt="Nebula Nights"></a>
+                </div>
             </div>
         </nav>
 
         <section class="headline">
-           <h2 class="title-description">
-                "Interstellar Music Experience"
-            </h2>
             <h1>
                 Nebula Nights 2023
             </h1>
+            <hr class="header-underline">
             <p class="header-desctiption">
                 A concert that will take you on a journey through the cosmos. 
                 Our goal is to create an immersive and unforgettable 
@@ -49,6 +57,7 @@
             <P class="contact-note">
                 Please contact us via Email for any further questions 
                 about Nebula Nights 2023!
+                <br>
                <a href="mailto:contact@nebulanights.com">contact@nebulanights.com</a>
             </P>
         </section>
@@ -69,36 +78,25 @@
             Enjoy watching recorded videos of the last two Nebula Nights Concerts.
         </p>
         <div class="past-concerts-container">
-            <a href="#">
-                <div class="past-concerts-1">
+    
+                <a href="#" class="past-concerts-1">
                     <div class="past-concerts-mask"></div>
                     <h3>2022</h3>
                     <p>Nebula Nights Concert in Italy</p>
-                </div>
-            </a>
-            <a href="#">
-                <div class="past-concerts-2">
+                </a>
+  
+                <a href="#" class="past-concerts-2">
                     <div class="past-concerts-mask"></div>
                     <h3>2021</h3>
                     <p>Nebula Nights Concert in New York</p>  
-                </div>
-            </a>
+                </a>
+
         </div>
 
     </section>
 </section>
-<section class="partners">
-    <h2 class="partners-header">Partner</h2>
-    <hr class="header-underline">
-    <div class="partners-container">
-        <img src="./images/microverse-gray.png" alt="Microverse">
-        <img src="./images/w3schools-gray.png" alt="Microverse">
-        <img src="./images/google-gray.png" alt="Microverse">
-        <img src="./images/almeari-gray.png" alt="Microverse">
-    </div>
-</section>
 <footer>
-    <img src="./images/logo-gray.png" alt="">
+    <img src="./images/logo-white.png" alt="">
     <p> 2023 Nebula Nights. Some Rights Reserved.</p>
 </footer>
     <script src="./javascript.js"></script>
