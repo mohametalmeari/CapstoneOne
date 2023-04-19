@@ -1,3 +1,84 @@
 * {
   box-sizing: border-box;
 }
+
+.headline {
+  align-items: center;
+  text-align: center;
+}
+
+.contact-note{
+  color: #272a31;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  margin: 0 3rem;
+}
+
+.header-underline-small {
+  width: 1.5rem;
+  border-width: 0 0 1px;
+  border-color: #ec5242;
+  margin-bottom: 1rem;
+}
+
+.about-logo-header {
+  margin: 0;
+  color: #272a31;
+  font-size: large;
+}
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-bottom: solid 1px #d3d3d3;
+}
+
+.about-section p {
+  color: #272a31;
+  margin: 0 2rem 2rem;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.about-section img {
+  border: solid 1px #d3d3d3;
+  padding: 1rem 4rem;
+}
+.past-concerts-container{
+display: flex;
+flex-direction: column;
+gap: 1rem;
+margin: 0 1rem;
+}
+
+.past-concerts-1,
+.past-concerts-2 {
+  background-color: #ec5242;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: 7/4;
+}
+
+
+.past-concerts-1 h3,
+.past-concerts-1 p,
+.past-concerts-2 h3,
+.past-concerts-2 p
+ {
+  margin: 0;
+  color: #fff;
+}
+
+.past-concerts-1 {
+  background-image: url("");
+}
+.past-concerts-2 {
+  background-image: url("");
+}
