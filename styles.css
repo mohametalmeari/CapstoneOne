@@ -11,7 +11,6 @@ a {
   text-decoration: none;
 }
 
-
 header {
   position: relative;
 }
@@ -205,7 +204,6 @@ footer p {
   flex: 2;
   min-width: 1rem;
   max-width: 3rem;
-  
 }
 
 .program-card h3 {
@@ -226,6 +224,11 @@ button {
   color: #d3d3d3;
   padding: 1.5rem 3rem;
   border: 0;
+}
+
+button:hover {
+  background-color: #d3d3d3;
+  color: #ec5242;
 }
 
 .artists {
