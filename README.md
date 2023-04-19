@@ -35,9 +35,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Mo.Almeari - Nebula Nights <a name="about-project"></a>
+# 📖 Nebula Nights 2023 <a name="about-project"></a>
 
-**Mo.Almeari - Nebula Nights** An Interstellar Music Experience is a one-of-a-kind concert that combines the best of music, art, and technology to create an immersive and unforgettable intergalactic journey through the cosmos.
+**Nebula Nights 2023** An Interstellar Music Experience is a one-of-a-kind concert that combines the best of music, art, and technology to create an immersive and unforgettable intergalactic journey through the cosmos.
 
 ## 🛠 Built With <a name="built-with"></a>
 
