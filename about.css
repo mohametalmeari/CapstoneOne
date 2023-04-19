@@ -47,6 +47,8 @@
 .about-section img {
   border: solid 1px #d3d3d3;
   padding: 1rem 4rem;
+  max-width: 100%;
+  align-self: center;
 }
 .past-concerts-container{
 display: flex;
@@ -55,30 +57,49 @@ gap: 1rem;
 margin: 0 1rem;
 }
 
+.past-concerts-mask{
+  opacity: 0.6;
+  width: 100%;
+  height: 100%;
+  background-color: #c04437;
+  position: absolute;
+  z-index: -1;
+}
+
 .past-concerts-1,
 .past-concerts-2 {
-  background-color: #ec5242;
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 1rem;
   align-items: center;
   justify-content: center;
   aspect-ratio: 7/4;
+  background-position: center;
+  background-size: cover;
+  z-index: -2;
 }
 
 
 .past-concerts-1 h3,
+.past-concerts-2 h3
+ {
+  margin: 0;
+  color: #fff;
+  font-size: 24px;
+}
+
 .past-concerts-1 p,
-.past-concerts-2 h3,
 .past-concerts-2 p
  {
   margin: 0;
   color: #fff;
+  font-size: 12px;
 }
 
 .past-concerts-1 {
-  background-image: url("");
+  background-image: url("./images/concert-2022.jpg");
 }
 .past-concerts-2 {
-  background-image: url("");
+  background-image: url("./images/concert-2021.jpg");
 }

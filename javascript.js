@@ -21,46 +21,40 @@ for (let i = 0; i < menuLink.length; i += 1) {
 
 const artists = [
   {
-    name: 'Tailer Swift1',
-    description: 'A great American singer1',
-    details: 'She is known for her loud songs1',
+    name: 'Grimes',
+    description: 'Alternative pop singer with ethereal vocals',
+    details: 'Canadian Grimes has been active since 2007, known for ethereal vocals and unique pop, electronic, and experimental music',
     image_scr: './images/artist1.png',
-    image_alt: 'Tailer Swift Image',
   },
   {
-    name: 'Tailer Swift2',
-    description: 'A great American singer2',
-    details: 'She is known for her loud songs2',
+    name: 'Daft Punk',
+    description: 'Electronic duo with iconic helmets',
+    details: 'French electronic music duo Daft Punk, active since 1993, known for iconic helmets, robot personas, and influential contributions to the genre',
     image_scr: './images/artist2.png',
-    image_alt: 'Tailer Swift Image2',
   },
   {
-    name: 'Tailer Swift',
-    description: 'A great American singer',
-    details: 'She is known for her loud songs',
+    name: 'Björk',
+    description: 'Avant-garde singer with eclectic style',
+    details: 'Icelandic Björk has been active since 1977, known for avant-garde music, eclectic style, and unique vocal range',
     image_scr: './images/artist3.png',
-    image_alt: 'Tailer Swift Image',
   },
   {
-    name: 'Tailer Swift1',
-    description: 'A great American singer1',
-    details: 'She is known for her loud songs1',
-    image_scr: './images/artist1.png',
-    image_alt: 'Tailer Swift Image',
+    name: 'Tame Impala',
+    description: 'Psychedelic rock band with dreamy soundscapes',
+    details: 'Australian Tame Impala, formed in 2007, known for dreamy soundscapes and lush production',
+    image_scr: './images/artist4.png',
   },
   {
-    name: 'Tailer Swift2',
-    description: 'A great American singer2',
-    details: 'She is known for her loud songs2',
-    image_scr: './images/artist2.png',
-    image_alt: 'Tailer Swift Image2',
+    name: 'MGMT',
+    description: 'Indie rock band with synth-heavy sound',
+    details: 'American indie rock band MGMT, formed in 2002, known for synth-heavy sound and catchy hooks',
+    image_scr: './images/artist5.png',
   },
   {
-    name: 'Tailer Swift',
-    description: 'A great American singer',
-    details: 'She is known for her loud songs',
-    image_scr: './images/artist3.png',
-    image_alt: 'Tailer Swift Image',
+    name: 'Radiohead',
+    description: 'Alternative rock band with experimental style',
+    details: 'British alternative rock band Radiohead, formed in 1985, known for experimental style and pushing musical boundaries',
+    image_scr: './images/artist6.png',
   },
 ];
 
@@ -70,7 +64,7 @@ for (let i = 0; i < artists.length; i += 1) {
   artistCard.innerHTML = `
   <div class="img-container">
       <div></div>
-      <img src="${artists[i].image_scr}" alt="${artists[i].image_alt}">
+      <img src="${artists[i].image_scr}" alt="Artist's Image">
   </div>
   <div class="artist-info">
       <h3>
@@ -86,7 +80,7 @@ for (let i = 0; i < artists.length; i += 1) {
 }
 
 const artistCard = document.querySelectorAll('.artist-card');
-for (let i = 4; i < artistCard.length; i += 1) {
+for (let i = 2; i < artistCard.length; i += 1) {
   artistCard[i].style.display = 'none';
 }
 
@@ -94,13 +88,13 @@ const moreBtn = document.getElementById('more-btn');
 let showCards = true;
 moreBtn.addEventListener('click', () => {
   if (showCards) {
-    for (let i = 4; i < artistCard.length; i += 1) {
+    for (let i = 2; i < artistCard.length; i += 1) {
       artistCard[i].style.display = 'flex';
     }
     showCards = false;
     moreBtn.innerHTML = 'Less <i id="btn_arrow" class="material-icons">keyboard_arrow_up</i>';
   } else {
-    for (let i = 4; i < artistCard.length; i += 1) {
+    for (let i = 2; i < artistCard.length; i += 1) {
       artistCard[i].style.display = 'none';
     }
     showCards = true;
