@@ -71,7 +71,7 @@
 
 > Open the link bellow:
 
- - [Live Demo Link](https://mohametalmeari.github.io/)
+ - [Live Demo Link](https://mohametalmeari.github.io/CapstoneOne/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
