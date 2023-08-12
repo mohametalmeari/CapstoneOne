@@ -5,7 +5,7 @@
   <img src="images\large_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Nebula Nights 2023 README</b></h3>
+  <h3><b>Nebula Nights 2023 - README</b></h3>
 
 </div>
 
@@ -24,12 +24,12 @@
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
-- [🙏 Acknowlednpments](#acknowlednpments)
+- [🙏 Acknowledgements](#acknowledgements)
 - [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
@@ -37,13 +37,11 @@
 
 # 📖 Nebula Nights 2023 <a name="about-project"></a>
 
-**Nebula Nights 2023** An Interstellar Music Experience is a one-of-a-kind concert that combines the best of music, art, and technology to create an immersive and unforgettable intergalactic journey through the cosmos.
+**Nebula Nights 2023:** (An Interstellar Music Experience) is a one-of-a-kind concert that combines the best of music, art, and technology to create an immersive and unforgettable intergalactic journey through the cosmos.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Our tech stack consisting of HTML, CSS and JavaScript for the front-end.
 
 <details>
   <summary>Client</summary>
@@ -57,9 +55,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Key Features of Nebula Nights Website
-
-- **Concert Detials**
+- **Concert Details**
 - **Ticket sales**
 - **Contact information**
 
@@ -69,8 +65,6 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Open the link bellow:
-
  - [Live Demo Link](https://mohametalmeari.github.io/CapstoneOne/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -79,10 +73,15 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> A new developer can use this project as a guide to creating a concert website.
-
 To get a local copy up and running, follow these steps.
 
+### Prerequisites
+
+In order to run this project you need:
+
+```sh
+  npm install
+```
 
 ### Setup
 
@@ -90,13 +89,17 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone git@github.com:mohametalmeari/CapstoneOne.git
+  git clone https://github.com/mohametalmeari/CapstoneOne.git
 ```
 
 ### Usage
 
 How to open your project in the browser? 
 Double click on HTML file and the HTML file will be open in your browser.
+
+### Deployment
+
+You can deploy this project using GitHub Pages.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -105,13 +108,11 @@ Double click on HTML file and the HTML file will be open in your browser.
 
 ## 👥 Authors <a name="authors"></a>
 
-> This project was done by Mohamad.
-
 👤 **Mohamad**
 
-- GitHub: [@githubhandle](https://github.com/mohametalmeari)
-- Twitter: [@twitterhandle](https://twitter.com/MohametAlmeari)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/mohamet-almeari)
+- GitHub: [@mohametalmeari](https://github.com/mohametalmeari)
+- Twitter: [@MohametAlmeari](https://twitter.com/MohametAlmeari)
+- LinkedIn: [mohamet-almeari](https://www.linkedin.com/in/mohamet-almeari)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -141,15 +142,13 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Share and Review!
-
 We invite you to share this project with others and provide a favorable review if you find it to be useful.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ACKNOWLEDnpmENTS -->
+<!-- ACKNOWLEDGMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowlednpments"></a>
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 > The original design idea for this web page was created by Cindy Shin and can be found on Behance. The design is licensed under Creative Commons and requires appropriate credit to be given to the author. We would like to thank Cindy Shin for her amazing work and inspiration for our project.
 
