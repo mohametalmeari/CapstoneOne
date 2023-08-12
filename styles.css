@@ -131,7 +131,7 @@ footer img {
 
 .title-description {
   color: #ec5242;
-  font-size: large;
+  font-size: larger;
   margin: 0 0 1rem;
 }
 
@@ -143,11 +143,11 @@ h1 {
   margin: 0 0 1rem;
 }
 
-.header-desctiption {
+.header-description {
   border: solid 2px #fff;
   padding: 1rem;
   color: #272a31;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 18px;
   font-weight: 400;
   margin: 0 0 1rem;
@@ -200,7 +200,7 @@ h1 {
 
 footer p {
   color: #272a31;
-  font-size: 9px;
+  font-size: 10px;
 }
 
 .program-card {
@@ -231,7 +231,7 @@ footer p {
 .program-card h3 {
   flex: 4;
   color: #ec5242;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .program-card p {
@@ -265,7 +265,7 @@ button:hover {
 .artists-header {
   margin: 0;
   color: #272a31;
-  font-size: large;
+  font-size: larger;
 }
 
 #artists-container {
@@ -311,13 +311,13 @@ button:hover {
 
 .artist-info h3 {
   margin: 0 0 0.5rem;
-  font-size: 16px;
+  font-size: 18px;
   color: #272a31;
 }
 
 .artist-info h4 {
   margin: 0 0 0.5rem;
-  font-size: 11px;
+  font-size: 13px;
   color: #ec5242;
   text-align: left;
   font-style: italic;
@@ -332,7 +332,7 @@ button:hover {
 
 .artist-info p {
   margin: 0 0 0.5rem;
-  font-size: 9px;
+  font-size: 11px;
   color: #272a31;
   text-align: left;
 }
@@ -368,7 +368,7 @@ button:hover {
 .partners-header {
   margin: 0;
   color: #d3d3d3;
-  font-size: 16px;
+  font-size: larger;
 }
 
 .partners-container {
@@ -458,7 +458,7 @@ footer {
     display: none;
   }
 
-  .header-desctiption {
+  .header-description {
     width: 60%;
   }
 
@@ -488,7 +488,7 @@ footer {
   }
 
   .program-card p {
-    font-size: 10px;
+    font-size: 11px;
     line-height: 12px;
     gap: 0.5rem;
   }
